@@ -154,8 +154,8 @@ conf_matrix = confusion_matrix(actuals, predictions)
 class_report = classification_report(actuals, predictions, target_names=iris.target_names)
 
 # Print details
-print("\nName: S.YOGESH")
-print("Register No: 212224230311")
+print("\nName: Sharika.R")
+print("Register No: 212223230204")
 print(f'Test Accuracy: {accuracy:.2f}%')
 print("Confusion Matrix:\n", conf_matrix)
 print("Classification Report:\n", class_report)
@@ -176,8 +176,8 @@ with torch.no_grad():
     predicted_class_index = torch.argmax(output[0]).item()
     predicted_class_label = iris.target_names[predicted_class_index]
 
-print("\nName: S.YOGESH")
-print("Register No: 212224230311")
+print("\nName: Sharika.R")
+print("Register No: 212223230204")
 print(f'Predicted class for sample input: {predicted_class_label}')
 print(f'Actual class for sample input: {iris.target_names[y_test[5].item()]}')
 
